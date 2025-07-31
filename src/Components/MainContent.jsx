@@ -1,3 +1,7 @@
+import img1 from '../assets/img1.png'
+import img2 from '../assets/img2.png'
+import img3 from '../assets/img3.png'
+import img4 from '../assets/img4.png'
 export function MainContent() {
   return (
     <>
@@ -113,7 +117,7 @@ export function MainContent() {
             <div className="card2">
               <div className="item2">
                 <div className="icon">
-                  <img src="/src/assets/img2.png"  />
+                  <img src={img2}  />
                 </div>
                 <div className="contain">
                   <h5>@tegan</h5>
@@ -122,7 +126,7 @@ export function MainContent() {
               </div>
               <div className="item2">
                 <div className="icon">
-                  <img src="/src/assets/img1.png"  />
+                  <img src={img1} />
                 </div>
                 <div className="contain">
                   <h5>@morgan</h5>
@@ -131,7 +135,7 @@ export function MainContent() {
               </div>
               <div className="item2">
                 <div className="icon">
-                  <img src="/src/assets/img3.png"  />
+                  <img src={img3}  />
                 </div>
                 <div className="contain">
                   <h5>@kendall</h5>
@@ -140,7 +144,7 @@ export function MainContent() {
               </div>
               <div className="item2">
                 <div className="icon">
-                  <img src="/src/assets/img4.png"  />
+                  <img src={img4}  />
                 </div>
                 <div className="contain">
                   <h5>@alex</h5>
