@@ -113,7 +113,7 @@ export function MainContent() {
             <div className="card2">
               <div className="item2">
                 <div className="icon">
-                  <img src="src/assets/img2.png"  />
+                  <img src="/src/assets/img2.png"  />
                 </div>
                 <div className="contain">
                   <h5>@tegan</h5>
@@ -122,7 +122,7 @@ export function MainContent() {
               </div>
               <div className="item2">
                 <div className="icon">
-                  <img src="src/assets/img1.png"  />
+                  <img src="/src/assets/img1.png"  />
                 </div>
                 <div className="contain">
                   <h5>@morgan</h5>
@@ -131,7 +131,7 @@ export function MainContent() {
               </div>
               <div className="item2">
                 <div className="icon">
-                  <img src="src/assets/img3.png"  />
+                  <img src="/src/assets/img3.png"  />
                 </div>
                 <div className="contain">
                   <h5>@kendall</h5>
@@ -140,7 +140,7 @@ export function MainContent() {
               </div>
               <div className="item2">
                 <div className="icon">
-                  <img src="src/assets/img4.png"  />
+                  <img src="/src/assets/img4.png"  />
                 </div>
                 <div className="contain">
                   <h5>@alex</h5>
