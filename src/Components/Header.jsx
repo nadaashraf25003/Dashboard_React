@@ -1,3 +1,4 @@
+import img1 from '../assets/img1.png'
 function Header({ toggle }) {
   return (
     <>
@@ -17,7 +18,7 @@ function Header({ toggle }) {
               <i className="fas fa-bell" />
             </div>
             <div className="img">
-              <img src="src/assets/img1.png"  />
+              <img src={img1}  />
             </div>
             <div className="name">Morgan Oakley</div>
           </div>
@@ -25,7 +26,7 @@ function Header({ toggle }) {
         <section className="header_sec1">
           <div className="head_2">
             <div className="img">
-              <img src="src/assets/img1.png"  />
+              <img src={img1}  />
             </div>
             <div className="title">
               <h5>Hi there,</h5>
